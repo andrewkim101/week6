@@ -19,24 +19,25 @@ In this chapter, we will cover the following topics:
 
 
 ## Steps to clone the project 
-1. Copy the url of the repository ending with .git
+1. Copy the url of the repository ending with .git (https://github.com/2019-spring/week6.git)
 2. GitHub Desktop: 
     * Go to Current Repository
     * click on Add drop down
     * Clone Repository
     * click on URL tab
-    * paste the copied URL, choose the location from your pc (c:dev\) then click on Clone.
+    * paste the copied URL (https://github.com/2019-spring/week6.git)
+    * choose the location from your local machine (c:dev\) then click on Clone.
 
-    Git Bash: navigate to the right directory and enter 
+    Git Bash: navigate to the right directory and enter (C:\dev)
   ```bash
-  git clone URL
+  git clone https://github.com/2019-spring/week6.git
   ```
 
   3. [optional] Create your feature branch: 
   ```bash
-  git checkout -b my-new-branch
+  git checkout -b week6_john
   ```
-  4. Start working on the code.
+  4. Open the C:/dev/week6 folder from your VS Code and start modifying the code.
 
 Reference:
 [Learning Selenium Testing Tools with Python - Unmesh Gundecha](https://www.amazon.com/dp/1784392510/ref=cm_sw_em_r_mt_dp_U_xH1xDbVNB8KKX)
