@@ -39,6 +39,8 @@ In this chapter, we will cover the following topics:
   ```
   4. Open the `C:\dev\week6` folder from your VS Code and start modifying the code.
 
-Reference:
+## References
+* [Locating Elements](https://selenium-python.readthedocs.io/locating-elements.html#locating-by-id)
+* [Unit testing framework](https://docs.python.org/3/library/unittest.html)
 * [Learning Selenium Testing Tools with Python](https://www.amazon.com/gp/product/B00RP13D10/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i1)
 * [Selenium Testing Tools Cookbook](https://www.amazon.com/dp/1784392510/ref=cm_sw_em_r_mt_dp_U_xH1xDbVNB8KKX)
