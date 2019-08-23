@@ -26,9 +26,9 @@ In this chapter, we will cover the following topics:
     * Clone Repository
     * click on URL tab
     * paste the copied URL (https://github.com/2019-spring/week6.git)
-    * choose the location from your local machine (c:dev\) then click on Clone.
+    * choose the location from your local machine `C:\dev\` then click on Clone.
 
-    Git Bash: navigate to the right directory and enter (C:\dev)
+    Git Bash: navigate to the right directory `C:\dev\` and enter following:
   ```bash
   git clone https://github.com/2019-spring/week6.git
   ```
@@ -37,7 +37,7 @@ In this chapter, we will cover the following topics:
   ```bash
   git checkout -b week6_john
   ```
-  4. Open the C:/dev/week6 folder from your VS Code and start modifying the code.
+  4. Open the `C:\dev\week6` folder from your VS Code and start modifying the code.
 
 Reference:
 * [Learning Selenium Testing Tools with Python](https://www.amazon.com/gp/product/B00RP13D10/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i1)
