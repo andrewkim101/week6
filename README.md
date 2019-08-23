@@ -1,0 +1,42 @@
+# Week 6
+Working with WebDriver and WebElement classes from Selenium and implementing TestCase class from unittest
+
+### Chapter 3. Finding Elements
+In this chapter, we will cover the following topics:
+  * Understanding more about finding elements with Selenium WebDriver
+  * Understanding how to investigate and define locators to find elements using developer tools options available in various browsers
+  * Finding out various ways to find elements, including ID, Name, and Class attribute values and use XPath and CSS selectors to define more   dynamic locators
+  * Implementing various find_element_by methods to find elements so that
+
+### Chapter 2. Writing Tests Using unittest
+In this chapter, we will cover the following topics:
+ * What unittest is?
+ * Using the unittest library to write Selenium WebDriver tests
+ * Implementing a test using the TestCase class
+ * Understanding various types of assert methods provided by the unittest library
+ * Creating a TestSuite for a group of tests
+ * Generating test reports in HTML format using the unittest extension
+
+
+## Steps to clone the project 
+1. Copy the url of the repository ending with .git
+2. GitHub Desktop: 
+    * Go to Current Repository
+    * click on Add drop down
+    * Clone Repository
+    * click on URL tab
+    * paste the copied URL, choose the location from your pc (c:dev\) then click on Clone.
+
+    Git Bash: navigate to the right directory and enter 
+  ```bash
+  git clone URL
+  ```
+
+  3. [optional] Create your feature branch: 
+  ```bash
+  git checkout -b my-new-branch
+  ```
+  4. Start working on the code.
+
+Reference:
+[Learning Selenium Testing Tools with Python - Unmesh Gundecha](https://www.amazon.com/dp/1784392510/ref=cm_sw_em_r_mt_dp_U_xH1xDbVNB8KKX)
