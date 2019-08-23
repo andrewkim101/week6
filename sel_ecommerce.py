@@ -5,9 +5,12 @@ class SeleniumTest():
 
     # test data
     __website_path = "http://automationpractice.com/index.php"
+    # __browser_path = "../chromedriver_win32/chromedriver.exe" # we will not use this since we put the driver in python folder
 
     def initialize_browser(self):
         """initialize the browser"""
+        # self.driver = webdriver.Chrome(self.__browser_path)
+
         # paste the chromedriver in this location : C:\Program Files\Python37 (python installation folder)
         self.driver = webdriver.Chrome()
         self.driver.implicitly_wait(30)

@@ -21,12 +21,14 @@ class SeleniumTest(unittest.TestCase):
 
     def test_verify_product_names(self):
         """get the product name of listed products, search should be done before this function"""
-        word = 'dress'
-
+        word = 'dress' # to search for 
         self.search_keyword(word)
 
         product_name_list = self.driver.find_elements_by_xpath("//div[@id='center_column']//a[@class='product-name']")
         for element in product_name_list:
+            # the condtion "word.lower() in element.text.lower()" should return true to pass the test
+            # which means the word we are searching should be at least part of the product name 
+            # otherwise it will throw an Exception (we will see in future sessions how to handle that)
             self.assertTrue(word.lower() in element.text.lower())
             # if word.lower() in element.text.lower():
             #     print(f"Test passed for {element.text}")
@@ -56,7 +58,7 @@ class SeleniumTest(unittest.TestCase):
         # close the browser
         cls.driver.quit()
 
-
+    #  below methods do not start with test_ so these are not test cases, but we can still used them in our above test cases
     def verify_menu_items(self):
         top_menu_list = self.driver.find_elements_by_tag_name("li")
         print(len(top_menu_list))
@@ -72,5 +74,6 @@ class SeleniumTest(unittest.TestCase):
         search_field.submit()
         time.sleep(5)
 
+# this line makes the current file executable file, verbosity helps to display more details in execution result
 if __name__ == '__main__':
     unittest.main(verbosity=2)
